@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>List of Todos</h1>
+      </header>
+      <main>
+        <div class="card" style="width: 36rem;">
+          <ul id="todo-list" class="list-group list-group-flush">
+            <li class="list-group-item">
+              <input
+                type="checkbox"
+                class="todo-check"
+                name="walk-dog"
+                id="walk-dog"
+              />
+              Walk the dog
+            </li>
+            <li class="list-group-item">
+              <input
+                type="checkbox"
+                class="todo-check"
+                name="tweeter"
+                id="tweeter"
+              />
+              Work on Tweeter
+            </li>
+            <li class="list-group-item">
+              <input
+                type="checkbox"
+                class="todo-check"
+                name="movies"
+                id="movies"
+              />
+              Go to the movies, yeah right!
+            </li>
+          </ul>
+
+          <form id="add-todo-frm">
+            <div class="form-group">
+              <input type="text" name="addtodo" id="add-todo" />
+              <input class="btn btn-primary" type="submit" value="Add Todo" />
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="./scripts/todos.js"></script>
+  </body>
+</html>
