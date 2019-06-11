@@ -119,7 +119,7 @@ document.getElementsByTagName;
 document.getElementsByName;
 document.querySelector;
 document.querySelectorAll;
-document.getElementByClassName();
+document.getElementByClassName;
 ```
 
 - Return either the first element or a collection of elements
